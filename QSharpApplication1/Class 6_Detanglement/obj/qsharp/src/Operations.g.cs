@@ -59,6 +59,12 @@ namespace Quantum.Class_6_Detanglement
             set;
         }
 
+        protected IUnitary<Qubit> MicrosoftQuantumPrimitiveX
+        {
+            get;
+            set;
+        }
+
         public override Func<QVoid, QVoid> Body => (__in__) =>
         {
 #line 7 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
@@ -79,45 +85,43 @@ namespace Quantum.Class_6_Detanglement
                 {
 #line 15 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                     var qubits = Allocate.Apply(2L);
-#line 28 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
-                    MicrosoftQuantumPrimitiveH.Apply(qubits[0L]);
-#line 29 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
-                    MicrosoftQuantumPrimitiveCNOT.Apply((qubits[0L], qubits[1L]));
-#line 31 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
-                    MicrosoftQuantumPrimitiveCNOT.Apply((qubits[0L], qubits[1L]));
-#line 32 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
-                    MicrosoftQuantumPrimitiveH.Apply(qubits[0L]);
-#line 34 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
-                    var result1 = M.Apply(qubits[0L]);
 #line 35 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
-                    var result2 = M.Apply(qubits[1L]);
+                    MicrosoftQuantumPrimitiveH.Apply(qubits[0L]);
+#line 36 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+                    MicrosoftQuantumPrimitiveCNOT.Apply((qubits[0L], qubits[1L]));
 #line 37 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
-                    Message.Apply(String.Format("{0}, {1}", result1, result2));
+                    MicrosoftQuantumPrimitiveX.Apply(qubits[0L]);
+#line 39 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+                    var result1 = M.Apply(qubits[0L]);
 #line 40 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+                    var result2 = M.Apply(qubits[1L]);
+#line 42 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+                    Message.Apply(String.Format("{0}, {1}", result1, result2));
+#line 45 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                     if (((result1 == Result.Zero) && (result2 == Result.Zero)))
                     {
-#line 42 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+#line 47 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                         c00 = (c00 + 1L);
                     }
                     else if (((result1 == Result.Zero) && (result2 == Result.One)))
                     {
-#line 46 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+#line 51 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                         c01 = (c01 + 1L);
                     }
                     else if (((result1 == Result.One) && (result2 == Result.Zero)))
                     {
-#line 50 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+#line 55 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                         c10 = (c10 + 1L);
                     }
                     else
                     {
-#line 54 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+#line 59 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                         c11 = (c11 + 1L);
                     }
 
-#line 57 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+#line 62 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                     Message.Apply(String.Format("c00={0}, c01={1}, c10={2}, c11={3}", c00, c01, c10, c11));
-#line 59 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
+#line 64 "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Operations.qs"
                     ResetAll.Apply(qubits?.Copy());
 #line hidden
                     Release.Apply(qubits);
@@ -138,6 +142,7 @@ namespace Quantum.Class_6_Detanglement
             this.Message = this.Factory.Get<ICallable<String, QVoid>>(typeof(Microsoft.Quantum.Primitive.Message));
             this.Release = this.Factory.Get<Release>(typeof(Microsoft.Quantum.Primitive.Release));
             this.ResetAll = this.Factory.Get<ICallable<QArray<Qubit>, QVoid>>(typeof(Microsoft.Quantum.Primitive.ResetAll));
+            this.MicrosoftQuantumPrimitiveX = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Primitive.X));
         }
 
         public override IApplyData __dataIn(QVoid data) => data;

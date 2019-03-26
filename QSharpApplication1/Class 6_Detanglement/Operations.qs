@@ -25,11 +25,16 @@
 				//CNOT(qubits[0],qubits[1]);
 				
 				//Case 3 - Detanglement - c00 = 1000
-				H(qubits[0]);
-				CNOT(qubits[0],qubits[1]);
+				//H(qubits[0]);
+				//CNOT(qubits[0],qubits[1]);
+				//CNOT(qubits[0],qubits[1]);
+				//H(qubits[0]);
+
 				
-				CNOT(qubits[0],qubits[1]);
+				//Case 4 - Opposite Entanglement by applying X gate: distributed between c01 and c10
 				H(qubits[0]);
+				CNOT(qubits[0], qubits[1]);
+				X(qubits[0]);
 
 				let result1 = M(qubits[0]);
 				let result2 = M(qubits[1]);

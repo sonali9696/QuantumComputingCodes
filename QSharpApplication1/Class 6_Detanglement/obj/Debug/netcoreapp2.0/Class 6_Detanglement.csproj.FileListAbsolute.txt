@@ -8,3 +8,14 @@ C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 6_Detan
 C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.AssemblyInfo.cs
 C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.dll
 C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.pdb
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\bin\Debug\netcoreapp2.0\Class 6_Detanglement.deps.json
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\bin\Debug\netcoreapp2.0\Class 6_Detanglement.runtimeconfig.json
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\bin\Debug\netcoreapp2.0\Class 6_Detanglement.runtimeconfig.dev.json
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\bin\Debug\netcoreapp2.0\Class 6_Detanglement.dll
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\bin\Debug\netcoreapp2.0\Class 6_Detanglement.pdb
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.csprojAssemblyReference.cache
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.csproj.CoreCompileInputs.cache
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.AssemblyInfoInputs.cache
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.AssemblyInfo.cs
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.dll
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\Class 6_Detanglement\obj\Debug\netcoreapp2.0\Class 6_Detanglement.pdb
