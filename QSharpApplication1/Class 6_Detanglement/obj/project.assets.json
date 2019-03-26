@@ -922,11 +922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\soagraw\\source\\repos\\QUANTUM COMPUTING\\QSharpApplication1\\Class 6_Detanglement\\Class 6_Detanglement.csproj",
+      "projectUniqueName": "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Class 6_Detanglement.csproj",
       "projectName": "Class 6_Detanglement",
-      "projectPath": "C:\\Users\\soagraw\\source\\repos\\QUANTUM COMPUTING\\QSharpApplication1\\Class 6_Detanglement\\Class 6_Detanglement.csproj",
+      "projectPath": "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\Class 6_Detanglement.csproj",
       "packagesPath": "C:\\Users\\soagraw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\soagraw\\source\\repos\\QUANTUM COMPUTING\\QSharpApplication1\\Class 6_Detanglement\\obj\\",
+      "outputPath": "C:\\GITHUB\\QuantumComputingCodes\\QSharpApplication1\\Class 6_Detanglement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

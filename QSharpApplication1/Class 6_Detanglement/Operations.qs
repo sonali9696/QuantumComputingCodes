@@ -24,7 +24,7 @@
 				//H(qubits[0]);
 				//CNOT(qubits[0],qubits[1]);
 				
-				//Case 3 - Detanglement - all 1000 are Zeros again
+				//Case 3 - Detanglement - c00 = 1000
 				H(qubits[0]);
 				CNOT(qubits[0],qubits[1]);
 				
