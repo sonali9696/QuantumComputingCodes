@@ -1,0 +1,11 @@
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\bin\Debug\netcoreapp2.0\Class 4_CNOT gate.deps.json
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\bin\Debug\netcoreapp2.0\Class 4_CNOT gate.runtimeconfig.json
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\bin\Debug\netcoreapp2.0\Class 4_CNOT gate.runtimeconfig.dev.json
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\bin\Debug\netcoreapp2.0\Class 4_CNOT gate.dll
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\bin\Debug\netcoreapp2.0\Class 4_CNOT gate.pdb
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\obj\Debug\netcoreapp2.0\Class 4_CNOT gate.csprojAssemblyReference.cache
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\obj\Debug\netcoreapp2.0\Class 4_CNOT gate.csproj.CoreCompileInputs.cache
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\obj\Debug\netcoreapp2.0\Class 4_CNOT gate.AssemblyInfoInputs.cache
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\obj\Debug\netcoreapp2.0\Class 4_CNOT gate.AssemblyInfo.cs
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\obj\Debug\netcoreapp2.0\Class 4_CNOT gate.dll
+C:\Users\soagraw\source\repos\QUANTUM COMPUTING\QSharpApplication1\Class 4_CNOT gate\obj\Debug\netcoreapp2.0\Class 4_CNOT gate.pdb
