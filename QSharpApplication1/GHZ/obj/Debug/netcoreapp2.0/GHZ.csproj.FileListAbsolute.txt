@@ -1,0 +1,10 @@
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\bin\Debug\netcoreapp2.0\GHZ.deps.json
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\bin\Debug\netcoreapp2.0\GHZ.runtimeconfig.json
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\bin\Debug\netcoreapp2.0\GHZ.runtimeconfig.dev.json
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\bin\Debug\netcoreapp2.0\GHZ.dll
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\bin\Debug\netcoreapp2.0\GHZ.pdb
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\obj\Debug\netcoreapp2.0\GHZ.csproj.CoreCompileInputs.cache
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\obj\Debug\netcoreapp2.0\GHZ.AssemblyInfoInputs.cache
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\obj\Debug\netcoreapp2.0\GHZ.AssemblyInfo.cs
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\obj\Debug\netcoreapp2.0\GHZ.dll
+C:\GITHUB\QuantumComputingCodes\QSharpApplication1\GHZ\obj\Debug\netcoreapp2.0\GHZ.pdb
